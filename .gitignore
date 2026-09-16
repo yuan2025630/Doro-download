@@ -1,0 +1,23 @@
+.superpowers/
+.worktrees/
+.workbuddy/
+.vs/
+**/bin/
+**/obj/
+# 构建与发布产物
+artifacts/
+dist/
+dist-autoauth/
+tools/*.exe
+tools/*.zip
+tools/*.json
+# 内部协作交接记录，不随公开仓库分发
+docs/collaboration/
+# 用户数据与敏感文件
+tools/bilibili-cookies.txt
+下载视频/
+*.part
+*.ytdl
+*.log
+*.user
+*.suo
